@@ -5,7 +5,6 @@
 #include "TCHAR.h"
 #include "psapi.h"
 #include <tlhelp32.h>
-#include <iostream>
 #include <Pdh.h>
 #include <locale>
 #include <string>
