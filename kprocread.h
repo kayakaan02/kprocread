@@ -19,15 +19,18 @@ public:
 	static bool checkProcess(std::string cstr);
 
 	//get cpu usage percent of process
+	//returns -1 if process is not running
 	//I don't know what the output value is but various processes has direct proportion with their CPU usage
 	//usage: KPROC::getCpuUsage("sandbox.exe);
 	static float getCpuUsage(std::string cstr);
 
 	//get physical memory usage of process as KB
+	//returns -1 if process is not running
 	//usage: KPROC::getPhyMem("sandbox.exe);
 	static float getPhyMem(std::string cstr);
 
 	//get virtual memory usage of process as KB
+	//returns -1 if process is not running
 	//usage: KPROC::getVirMem("sandbox.exe);
 	static float getVirMem(std::string cstr);
 
