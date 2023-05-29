@@ -2,14 +2,14 @@
 Displays a process's memory and CPU usage
 
 
-**`KPROC::checkProcess("sandbox.exe)`**
+**`KPROC::checkProcess("sandbox.exe")`**
 
 -returns bool.
 
 -Checks if sandbox.exe is running or not. returns 1 if running, 0 if not.
 
 
-**`KPROC::getCpuUsage("sandbox.exe)`**
+**`KPROC::getCpuUsage("sandbox.exe")`**
 
 -returns float.
 
@@ -18,14 +18,14 @@ Displays a process's memory and CPU usage
 >I don't know what the output value is but various processes has direct proportion with their CPU usage
 
 
-**`KPROC::getPhyMem("sandbox.exe)`**
+**`KPROC::getPhyMem("sandbox.exe")`**
 
 -returns float.
 
 -get physical memory usage of sandbox.exe as KB
 
 
-**`KPROC::getVirMem("sandbox.exe)`**
+**`KPROC::getVirMem("sandbox.exe")`**
 
 -returns float.
 
